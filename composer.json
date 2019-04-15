@@ -1,0 +1,24 @@
+{
+  "name": "stfkolev/iowis",
+  "type": "library",
+  "description": "Iowis - Query Builder Class. Simple Database Connections.",
+  "keywords": ["php","pdo","sql","query","builder"],
+  "homepage": "https://github.com/stfkolev/Iowis",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Stf Kolev",
+      "email": "inkyzfx@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.4.0",
+    "ext-pdo": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Iowis\\": "src"
+    }
+  },
+  "minimum-stability": "dev"
+}
